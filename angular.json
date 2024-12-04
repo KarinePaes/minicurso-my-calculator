@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ola-mundo": {
+    "my-calculator": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ola-mundo",
+            "outputPath": "dist/my-calculator",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ola-mundo:build:production"
+              "buildTarget": "my-calculator:build:production"
             },
             "development": {
-              "buildTarget": "ola-mundo:build:development"
+              "buildTarget": "my-calculator:build:development"
             }
           },
           "defaultConfiguration": "development"

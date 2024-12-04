@@ -1,0 +1,19 @@
+button {
+    width: 60px; /* Largura do botão */
+    height: 60px; /* Altura do botão */
+    margin: 5px; /* Espaço entre os botões */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: none; /* Remove bordas padrão */
+    background: linear-gradient(145deg, #e0e0e0, #c7c7c7); /* Fundo com efeito de profundidade */
+    box-shadow: 4px 4px 8px #aaa, -4px -4px 8px #fff; /* Sombreamento para aparência 3D */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Fonte mais destacada */
+    color: #333; /* Cor do texto */
+    cursor: pointer; /* Cursor em formato de mão */
+    transition: all 0.2s ease-in-out; /* Transição suave para interações */
+  }
+
+  button:active {
+    background: linear-gradient(145deg, #c7c7c7, #e0e0e0); /* Inverte o gradiente ao clicar */
+    box-shadow: inset 4px 4px 8px #aaa, inset -4px -4px 8px #fff; /* Faz o botão parecer pressionado */
+  }

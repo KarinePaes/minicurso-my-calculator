@@ -1,0 +1,19 @@
+.visor {
+    width: 260px; /* Largura do visor */
+    height: 60px; /* Altura do visor */
+    margin: 10px 0; /* Remove centralização horizontal */
+    border: 2px solid #888; /* Borda fina para o contorno */
+    border-radius: 8px; /* Bordas arredondadas */
+    background: linear-gradient(145deg, #f0f0f0, #dcdcdc); /* Fundo com efeito leve de profundidade */
+    box-shadow: inset 4px 4px 8px #aaa, inset -4px -4px 8px #fff; /* Aparência de visor afundado */
+    display: flex; /* Usar flexbox para alinhar o texto */
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: flex-end; /* Alinhar o texto à direita */
+    font-size: 24px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    color: #333; /* Cor do texto */
+    padding: 0 10px; /* Espaçamento interno */
+    overflow: hidden; /* Evitar que o texto ultrapasse o visor */
+    text-align: right; /* Texto alinhado à direita */
+  }
+  

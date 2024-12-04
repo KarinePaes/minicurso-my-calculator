@@ -1,0 +1,6 @@
+<button 
+    [ngClass]="{ 'button-del' : symbol==='del'}"
+    [ngStyle]="{ 'background' : symbol === '=' ? 'green' : '', 'color' : symbol === '=' ? 'white' : 'black' }" 
+    (click)="symbolClicked(symbol)">
+    {{ symbol }}
+</button>
